@@ -32,71 +32,70 @@
 
     <main>
       <section class="main-content-header">
-        <img src="http://placehold.it/768x540">
       </section>
 
       <section class="main-content">
-          <h2 class="main-content-header">Седона — небольшой городок в Аризоне,<br>
+        <h2 class="main-content-header">Седона — небольшой городок в Аризоне,<br>
           заслуживающий большего!</h2>
-          <p class="main-content-description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
+        <p class="main-content-description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
       </section>
 
       <section class="main-content photo">
-        <article class="main-content-reason">
+        <div class="main-content-reason">
           <h2 class="main-content-header">Настоящий городок</h2>
           <div class="number">-№1-</div>
-          <div class="tex-description">Седона - не аттрацион для туристов, там течет своя жизнь</div>
-        </article>
-        <div class="main-content-reason picture-1">
+          <div class="text-description">Седона - не аттрацион для туристов, там течет своя жизнь</div>
+        </div>
+        <div class="index-photo-1">
           <img src="http://placehold.it/540x250" alt="фото гостиницы">
         </div>
       </section>
 
       <section class="main-content bonuses">
-        <article class="main-content-reason feature">
+        <div class="main-content-reason feature">
           <img src="http://placehold.it/540x250" alt="Жилье">
           <h2 class="main-content-header">Жилье</h2>
-          <div class="tex-description">Рекомендуем пожить в настоящем<br> мотеле,все как в кино!</div>
-        </article>
-        <article class="main-content-reason feature">
+          <div class="text-description">Рекомендуем пожить в настоящем<br> мотеле,все как в кино!</div>
+        </div>
+        <div class="main-content-reason feature">
           <img src="http://placehold.it/540x250" alt="Еда">
           <h2 class="main-content-header">Еда</h2>
-          <div class="tex-description">Всегда заказывайте<br> фирменный бургер,<br>вы не разочаруетесь!</div>
-        </article>
-        <article class="main-content-reason feature">
+          <div class="text-description">Всегда заказывайте<br> фирменный бургер,<br>вы не разочаруетесь!</div>
+        </div>
+        <div class="main-content-reason feature">
           <img src="http://placehold.it/540x250" alt="Сувениры">
           <h2 class="main-content-header">Сувениры</h2>
-          <div class="tex-description">Не только китайского<br> но и местного<br> производства!</div>
-        </article>
+          <div class="text-description">Не только китайского<br> но и местного<br> производства!</div>
+        </div>
       </section>
 
       <section class="main-content photo-advantages">
-        <article class="main-content-reason reason">
+        <div class="main-content-reason reason">
           <h2 class="main-content-header">Там есть мост дьявола</h2>
           <div class="number">-№2-</div>
           <div class="text-description">Да, по нему можно пройти! Если конечно вы осмелитесь</div>
-        </article>
-        <div class="main-content-reason picture-2">
+        </div>
+        <div class="index-photo-2">
           <img src="http://placehold.it/540x250" alt="фото моста дьявола" >
         </div>
       </section>
 
       <section class="main-content advantages">
-        <article class="main-content-reason reason">
+        <div class="main-content-reason reason">
           <h2 class="main-content-header">Небольшая площадь</h2>
           <div class="number">-№3-</div>
           <div class="text-description">Все достопримечательности находятся<br> очень близко</div>
-        </article>
-        <article class="main-content-reason reason">
+        </div>
+        <div class="main-content-reason reason">
           <h2 class="main-content-header">Красивая дорога</h2>
           <div class="number">-№4-</div>
           <div class="text-description">Ехать в Седону из Лас-Вегаса совсем<br> не скучно!</div>
-        </article>
-        <article class="main-content-reason reason">
+        </div>
+        <div class="main-content-reason reason">
           <h2 class="main-content-header">Мало туристов</h2>
           <div class="number">-№5-</div>
           <div class="text-description">Большинство едет в Гранд каньон<br> и толпится там</div>
-        </article>
+        </div>
       </section>
 
       <section class="main-content visit">
@@ -113,10 +112,14 @@
                     <input type="date" name="departure-date">
                   </label>
                   <label>Взрослые:
+                    <button type="button" name="button">-</button>
                     <input type="text" value="2">
+                    <button type="button" name="button">+</button>
                   </label>
                   <label>Дети:
+                    <button type="button" name="button">-</button>
                     <input type="text" value="0">
+                    <button type="button" name="button">+</button>
                   </label>
                   <div class="search-btn-small">
                     <input type="submit" value="Найти">
@@ -127,10 +130,9 @@
       </section>
 
       <section class="main-content map">
-        <img src="http://placehold.it/540x250" alt="Карта местности" >
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <section class="footer-link">
         <h2><a class="to-main-page" href="#">#VISITSEDONA</a></h2>
       </section>
@@ -141,8 +143,7 @@
       </section>
       <section class="footer-copyright">
         <p>Website by</p>
-        <div><img src="http://placehold.it/250x100" alt="logo htmlacademy"></div>
-        <a class="htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+        <a class="htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss"><img src="http://placehold.it/250x100" alt="logo htmlacademy"></a>
       </section>
       </footer>
   </div>
