@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
   <div class="positioner">
     <header class="main-header">
       <div class="header-positioner">
         <div class="logo">
-          <a href="#"><img src="#" alt="logo" width="100" height="100"></a>
+          <a href="#"><img src="img/logo.png" alt="logo" width="138" height="70"></a>
         </div>
         <nav class="header-menu">
           <ul>
@@ -47,23 +48,23 @@
           <div class="text-description">Седона - не аттрацион для туристов, там течет своя жизнь</div>
         </div>
         <div class="index-photo-1">
-          <img src="http://placehold.it/540x250" alt="фото гостиницы">
+          <img src="img/city.jpg" alt="фото гостиницы" width="800" height="256">
         </div>
       </section>
 
       <section class="main-content bonuses">
         <div class="bonuses-feature">
-          <img src="http://placehold.it/540x250" alt="Жилье">
+          <img src="img/house.png" alt="Жилье" width="75" height="72">
           <h2 class="main-content-header">Жилье</h2>
           <div class="text-description">Рекомендуем пожить в настоящем<br> мотеле,все как в кино!</div>
         </div>
         <div class="bonuses-feature">
-          <img src="http://placehold.it/540x250" alt="Еда">
+          <img src="img/food.png" alt="Еда" width="74" height="70">
           <h2 class="main-content-header">Еда</h2>
           <div class="text-description">Всегда заказывайте<br> фирменный бургер,<br>вы не разочаруетесь!</div>
         </div>
         <div class="bonuses-feature">
-          <img src="http://placehold.it/540x250" alt="Сувениры">
+          <img src="img/relic.png" alt="Сувениры" width="64" height="76">
           <h2 class="main-content-header">Сувениры</h2>
           <div class="text-description">Не только китайского<br> но и местного<br> производства!</div>
         </div>
@@ -76,7 +77,7 @@
           <div class="text-description">Да, по нему можно пройти! Если конечно вы осмелитесь</div>
         </div>
         <div class="index-photo-2">
-          <img src="http://placehold.it/540x250" alt="фото моста дьявола" >
+          <img src="img/canyon-photo.jpg" alt="фото моста дьявола" width="800" height="256">
         </div>
       </section>
 
@@ -106,10 +107,12 @@
             <div class="search-form">
               <form method="post" action="#">
                 <label>Дата заезда:
-                  <input type="date" name="arrival-date">
+                  <input type="date" name="arrival-date" id="arrival-date" value="24 апреля 2017">
+                  <div class="calendar"><img src="img/calendar.png" alt="calendar" width="21" height="22"></div>
                 </label>
                 <label>Дата выезда:
-                  <input type="date" name="departure-date">
+                  <input type="date" name="departure-date" id="departure-date" value="4 июля 2017">
+                  <div class="calendar"><img src="img/calendar.png" alt="calendar" width="21" height="22"></div>
                 </label>
                 <label>Взрослые:
                   <button type="button" name="button">-</button>
@@ -130,6 +133,7 @@
       </section>
 
       <section class="main-content map">
+        <img src="img/map.jpg" alt="координаты" width="1200" height="593">
       </section>
     </main>
 
@@ -138,13 +142,16 @@
         <h2><a class="to-main-page" href="#">#VISITSEDONA</a></h2>
       </section>
       <section class="footer-social">
-        <a class="social-btn social-btn-twitter"></a>
-        <a class="social-btn social-btn-facebook"></a>
-        <a class="social-btn social-btn-youtube"></a>
+        <a class="social-btn social-btn-twitter" href="https://www.twitter.com/">
+        <img src="img/twitter.png" alt="" width="17" height="15"></a>
+        <a class="social-btn social-btn-youtube" href="https://www.youtube.com/">
+        <img src="img/youtube.png" alt="" width="20" height="16"></a>
+        <a class="social-btn social-btn-fb" href="https://www.facebook.com/">
+        <img src="img/f-book.png" alt="" width="10" height="19"></a>
       </section>
       <section class="footer-copyright">
         <p>Website by</p>
-        <a class="htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss"><img src="http://placehold.it/250x100" alt="logo htmlacademy"></a>
+        <a class="htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/academy.png" alt="logo htmlacademy" width="113" height="39"></a>
       </section>
       </footer>
   </div>

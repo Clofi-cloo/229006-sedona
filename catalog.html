@@ -61,14 +61,18 @@
           <div class="check-price">
             <h3>Стоимость в сутки (р):</h3>
             <div class="block-inputs">
-              <div class="range-number">От 0</div>
-              <div class="range-number">До 3000</div>
+              <label class="range-label">От
+                <input class="range-number" value="0">
+              </label>
+              <label class="range-label">До
+                <input class="range-number" value="3000">
+              </label>
             </div>
 
             <div class="user-block">
                 <input type="range" min="0" max="3000" step="1" value="1500">
             </div>
-            <button class="btn filtr" type="button">Показать</button>
+            <button class="btn filtr" type="submit">Показать</button>
           </div>
         </form>
       </section>
@@ -89,6 +93,9 @@
 
       <section class="hotel-block">
         <article class="hotel-features">
+          <div class="hotel-photo">
+            <img src="#" alt="Amara Resort & Spa">
+          </div>
           <div class="hotel-info">
             <h2>Amara resort & spa </h2>
             <div class="hotel">Гостиница</div>
@@ -97,11 +104,15 @@
             <a href="#" class="btn-reservation">Забронировать</a>
           </div>
           <div class="hotel-rating">
+            <div class="stars"><img src="#" alt="4-stars"></div>
             <div class="rating">Рейтинг: 8,5</div>
           </div>
         </article>
 
         <article class="hotel-features">
+            <div class="hotel-photo">
+              <img src="#" alt="Desert Quail inn">
+            </div>
             <div class="hotel-info">
               <h2>Desert Quail inn</h2>
               <div class="hotel">Мотель</div>
@@ -110,11 +121,15 @@
               <a href="#" class="btn-reservation">Забронировать</a>
             </div>
             <div class="hotel-rating">
+              <div class="stars"><img src="#" alt="3-stars"></div>
               <div class="rating">Рейтинг: 8,9</div>
             </div>
         </article>
 
         <article class="hotel-features">
+            <div class="hotel-photo">
+              <img src="#" alt="Villas at poco diablo">
+            </div>
             <div class="hotel-info">
               <h2>Villas at poco diablo</h2>
               <div class="hotel">Апартаменты</div>
@@ -123,6 +138,7 @@
               <a href="#" class="btn-reservation">Забронировать</a>
             </div>
             <div class="hotel-rating">
+              <div class="stars"><img src="#" alt="2-stars"></div>
               <div class="rating">Рейтинг: 9,2</div>
             </div>
         </article>
