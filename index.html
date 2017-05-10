@@ -83,17 +83,17 @@
 
       <section class="main-content places clearfix">
         <div class="sightseeing">
-          <h2 class="main-content-title">Небольшая площадь</h2>
+          <h2 class="main-content-title">Небольшая<br> площадь</h2>
           <div class="main-content-number">-№3-</div>
           <div class="main-content-description">Все достопримечательности находятся<br> очень близко</div>
         </div>
         <div class="sightseeing">
-          <h2 class="main-content-title">Красивая дорога</h2>
+          <h2 class="main-content-title">Красивая<br> дорога</h2>
           <div class="main-content-number">-№4-</div>
           <div class="main-content-description">Ехать в Седону из Лас-Вегаса совсем<br> не скучно!</div>
         </div>
         <div class="sightseeing">
-          <h2 class="main-content-title">Мало туристов</h2>
+          <h2 class="main-content-title">Мало<br> туристов</h2>
           <div class="main-content-number">-№5-</div>
           <div class="main-content-description">Большинство едет в Гранд каньон<br> и толпится там</div>
         </div>
@@ -109,30 +109,38 @@
 
       <section class="main-content map">
         <div class="search-form">
-          <form method="post" action="#">
-            <label>Дата заезда:
-              <input type="date" name="arrival-date" id="arrival-date" value="24 апреля 2017">
-              <div class="calendar"><img src="img/calendar.png" alt="calendar" width="21" height="22"></div>
-            </label>
-            <label>Дата выезда:
-              <input type="date" name="departure-date" id="departure-date" value="4 июля 2017">
-              <div class="calendar"><img src="img/calendar.png" alt="calendar" width="21" height="22"></div>
-            </label>
-            <label>Взрослые:
-              <button type="button" name="button">-</button>
-              <input type="text" value="2">
-              <button type="button" name="button">+</button>
-            </label>
-            <label>Дети:
-              <button type="button" name="button">-</button>
-              <input type="text" value="0">
-              <button type="button" name="button">+</button>
-            </label>
-              <div class="search-btn-small">
-                <input type="submit" value="Найти">
+          <form action="/">
+            <div class="search-form-control clearfix">
+              <label for="">Дата заезда:</label>
+              <input type="text" />
+              <span class="search-form-icon-calendar"></span>
+            </div>
+            <div class="search-form-control clearfix">
+              <label for="">Дата выезда:</label>
+              <input type="text" />
+              <span class="search-form-icon-calendar"></span>
+            </div>
+            <div class="clearfix">
+              <div class="search-form-control-half">
+                <label for="">Взрослые:</label>
+                <div class="search-form-count">
+                  <button type="button">-</button>
+                  <input type="text" />
+                  <button type="button">+</button>
+                </div>
               </div>
-            </form>
-          </div>
+              <div class="search-form-control-half">
+                <label for="">Дети:</label>
+                <div class="search-form-count">
+                  <button type="button">-</button>
+                  <input type="text" />
+                  <button type="button">+</button>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="search-form-submit">Найти</button>
+          </form>
+        </div>
 
           <footer class="footer clearfix">
             <section class="footer-block">
@@ -148,7 +156,7 @@
               <img src="img/f-book.png" alt="" width="10" height="19"></a>
             </section>
             <section class="footer-block">
-              <span>Website by</span>
+              <span class="website-by">Website by</span>
               <a class="htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/academy.png" alt="logo htmlacademy" width="113" height="39"></a>
             </section>
           </footer>
